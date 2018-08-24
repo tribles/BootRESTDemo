@@ -18,12 +18,14 @@ package com.nebhale.springone2014;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 // TODO 1: Component scan, auto-configuration
-@ComponentScan
-@EnableAutoConfiguration
-public final class Application {
+//@ComponentScan
+//@EnableAutoConfiguration
+@SpringBootApplication
+public  class Application {
 
     // TODO 1: main() method
     public static void main(String[] args) {
